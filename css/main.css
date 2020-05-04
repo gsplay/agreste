@@ -197,17 +197,11 @@ p   {
   padding: 2vw;
 }
 .iconos {
-    background-color: var(--primario);
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    width: 7vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 3rem;
-}
-.iconos {
-    font-size: 3rem;
 }
 form {
     background-color: var(--gris);
