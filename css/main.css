@@ -153,8 +153,19 @@ p   {
     text-align: center;
 }
 .contenedor-hero img {
-  width: 40vw;
+  width: 70vw;
 }
+@media only screen and (min-width: 768px) {
+  .contenedor-hero img {
+    width: 40vw;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .contenedor-hero img {
+    width: 60vw;
+  }
+}
+
 
 .boton {
     background-color: var(--secundario);
