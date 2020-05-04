@@ -108,6 +108,10 @@ h1, h2, h3, h4 {
 h2, h3 {
     text-align: center;
 }
+h2  {
+    color: #444444;
+    font-weight: 300;
+}
 h3  {
     color: var(--secundario);
     font-weight: 300;
@@ -119,7 +123,7 @@ p   {
 }
 
 .hero {
-    height: 45rem;
+    height: 100vh;
     background-image: url(../img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -140,6 +144,7 @@ p   {
     right: 0;
     bottom: 0;
     left: 0;
+    height: 100vh;
 }
 .contenedor-hero {
     color: white;
@@ -168,10 +173,16 @@ p   {
     cursor: pointer;
 }
 .contenedor {
-    max-width: 90vw;
-    margin: 3rem auto;
+    max-width: 95vw;
+    margin: 2rem auto;
     background-color: white;
     padding: 3rem;
+}
+@media only screen and (min-width: 768px) {
+  .contenedor {
+    max-width: 90vw;
+    padding: 1rem;
+  }
 }
 .contenedor-servicios {
     margin-top: 3rem;
@@ -203,7 +214,7 @@ p   {
     margin-top: 3rem;
 }
 .iconos img {
-  width: 7vw;
+  width: 9vh;
 }
 form {
     background-color: var(--gris);
