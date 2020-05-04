@@ -197,11 +197,13 @@ p   {
   padding: 2vw;
 }
 .iconos {
-    width: 7vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 3rem;
+}
+.iconos img {
+  width: 7vw;
 }
 form {
     background-color: var(--gris);
