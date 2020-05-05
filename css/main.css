@@ -190,7 +190,7 @@ p   {
 .contenedor {
     max-width: 95vw;
     margin: 2rem auto;
-    background-color: white;
+    margin-bottom: 0;
 }
 @media only screen and (min-width: 768px) {
   .contenedor {
@@ -241,6 +241,62 @@ p   {
 .enviar {
     display: flex;
     justify-content: center;
+}
+.contenedor-footer {
+  padding: 3rem 0;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .contenedor-footer {
+      display: flex;
+      justify-content: space-between;
+  }
+}
+.site-footer {
+  background-color: #333333;
+  margin: 0;
+}
+@media (min-width: 768px) {
+  .site-footer nav {
+      display: block;
+  }
+}
+.copyright {    
+  color: white;
+  font-size: 1rem;
+}
+.logo-f {
+  width: 12rem;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+}
+/* navegacion */
+.navegacion {
+  margin-top: 1rem;
+}
+.navegacion a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: block;
+  margin-bottom: 3vh;
+}
+.navegacion a i {
+  margin-right: .5rem;
+  color: #27c5a6;
+}
+@media (min-width: 768px) {
+  .navegacion a {
+      display: inline-block;
+      margin-right: 2rem;
+      font-size: 1.2rem;
+  }
+  .navegacion a:last-of-type {
+      margin-right: 0;
+  }
+}
+.navegacion a:hover {
+  color: #27c5a6;
 }
 /* ==========================================================================
    Helper classes
